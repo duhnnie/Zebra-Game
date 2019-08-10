@@ -331,7 +331,7 @@ function createBoom(x, y, onComplete) {
 
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('start-button').addEventListener('click', function (event) {
-        event.currentTarget.parentElement.style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
         game = new Phaser.Game(1060, 600, Phaser.AUTO, '', {preload: preload, create: create, update: update});
     }, false);
 }, false);

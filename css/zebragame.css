@@ -1,4 +1,8 @@
-.overlay {
+body {
+	font-family: Helvetica;
+}
+
+#overlay {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -7,15 +11,22 @@
 	height: 100%;
 }
 
-#start-button {
+.indications {
 	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.indications h2 {
+	text-align: center;
+}
+
+#start-button {
 	border: none;
 	background: yellowgreen;
 	padding: 1em;
 	font-size: 24px;
 	border-radius: .5em;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	cursor: pointer;
 }
