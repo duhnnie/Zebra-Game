@@ -1,0 +1,35 @@
+{"frames": [
+{
+	"filename": "0.png",
+	"frame": {"x":2,"y":162,"w":174,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":174,"h":78},
+	"sourceSize": {"w":174,"h":78}
+},
+{
+	"filename": "1.png",
+	"frame": {"x":2,"y":82,"w":174,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":174,"h":78},
+	"sourceSize": {"w":174,"h":78}
+},
+{
+	"filename": "3.png",
+	"frame": {"x":2,"y":2,"w":174,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":174,"h":78},
+	"sourceSize": {"w":174,"h":78}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "misile.png",
+	"format": "RGBA8888",
+	"size": {"w":178,"h":242},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:91005835e01233af11d8f9f9f9eecc81:7f9be9667dc7033f5e205d12f5a1f812:74666e453dd8e51682fd7ef316c2332e$"
+}
+}
