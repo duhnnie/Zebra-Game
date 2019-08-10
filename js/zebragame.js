@@ -1,6 +1,5 @@
 
-
-    var game = new Phaser.Game(1060, 600, Phaser.AUTO, '', {preload: preload, create: create, update: update});
+    var game;
     var player;
     var platform;
     var bg;
@@ -21,6 +20,7 @@
     var restoChoferes = 0;
 
     function preload(){
+        // debugger;
         initScene();
         initZebra();
         initChofer();
@@ -328,3 +328,10 @@ function createBoom(x, y, onComplete) {
 		animation.onComplete.add(onComplete, this);
 	}
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('start-button').addEventListener('click', function (event) {
+        event.currentTarget.parentElement.style.display = 'none';
+        game = new Phaser.Game(1060, 600, Phaser.AUTO, '', {preload: preload, create: create, update: update});
+    }, false);
+}, false);
